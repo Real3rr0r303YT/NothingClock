@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    NothingClock – private clock, alarm, timer & stopwatch for Android
+    Copyright (C) 2026 Real3rr0r303YT
+    SPDX-License-Identifier: GPL-3.0-or-later
+    Licensed under the GNU GPL v3. See LICENSE for details.
+-->
+<resources>
+    <!-- Tabs -->
+    <string name="tab_clock">Uhr</string>
+    <string name="tab_alarms">Wecker</string>
+    <string name="tab_timer">Timer</string>
+    <string name="tab_stopwatch">Stoppuhr</string>
+    <string name="title_clock">UHR</string>
+    <string name="title_alarms">WECKER</string>
+    <string name="title_timer">TIMER</string>
+    <string name="title_stopwatch">STOPPUHR</string>
+    <string name="title_settings">EINSTELLUNGEN</string>
+
+    <!-- Uhr -->
+    <string name="clock_world">WELTUHR</string>
+    <string name="clock_add_city">Stadt hinzufügen</string>
+    <string name="clock_search_city">Stadt oder Zeitzone suchen</string>
+    <string name="clock_remove_city">Entfernen</string>
+    <string name="clock_same_time">Gleiche Zeit</string>
+    <string name="clock_offset_ahead">%1$s voraus</string>
+    <string name="clock_offset_behind">%1$s zurück</string>
+    <string name="clock_next_alarm">Nächster Wecker %1$s</string>
+
+    <!-- Wecker -->
+    <string name="alarms_empty">Noch keine Wecker</string>
+    <string name="alarms_empty_hint">Tippe auf +, um deinen ersten Wecker zu stellen.</string>
+    <string name="alarms_next_in">Klingelt in %1$d Std. %2$d Min.</string>
+    <string name="alarms_once">Einmalig</string>
+    <string name="alarms_every_day">Täglich</string>
+    <string name="alarms_weekdays">Werktags</string>
+    <string name="alarms_weekend">Wochenende</string>
+    <string name="alarm_new">Neuer Wecker</string>
+    <string name="alarm_edit">Wecker bearbeiten</string>
+    <string name="alarm_label">Bezeichnung</string>
+    <string name="alarm_repeat">WIEDERHOLEN</string>
+    <string name="alarm_vibrate">Vibration</string>
+    <string name="alarm_fade_in">SANFTES WECKEN</string>
+    <string name="alarm_fade_off">Aus</string>
+    <string name="alarm_fade_seconds">%1$d s</string>
+    <string name="alarm_snooze">SCHLUMMERN</string>
+    <string name="alarm_minutes">%1$d Min.</string>
+    <string name="alarm_delete">Löschen</string>
+    <string name="alarm_save">Speichern</string>
+    <string name="alarm_set_in">Wecker klingelt in %1$d Std. %2$d Min.</string>
+    <string name="action_add_alarm">Wecker hinzufügen</string>
+
+    <!-- Timer -->
+    <string name="timer_start">Start</string>
+    <string name="timer_pause">Pause</string>
+    <string name="timer_resume">Weiter</string>
+    <string name="timer_reset">Zurücksetzen</string>
+    <string name="timer_delete_digit">Ziffer löschen</string>
+    <string name="timer_presets">SCHNELLSTART</string>
+
+    <!-- Stoppuhr -->
+    <string name="stopwatch_start">Start</string>
+    <string name="stopwatch_pause">Pause</string>
+    <string name="stopwatch_lap">Runde</string>
+    <string name="stopwatch_reset">Zurücksetzen</string>
+    <string name="stopwatch_lap_number">RUNDE %1$d</string>
+    <string name="stopwatch_best">BESTE</string>
+    <string name="stopwatch_worst">LANGSAMSTE</string>
+
+    <!-- Klingeln -->
+    <string name="ring_alarm">Wecker</string>
+    <string name="ring_timer">Zeit ist um</string>
+    <string name="ring_alarm_text">Zum Öffnen tippen</string>
+    <string name="ring_timer_text">Dein Timer ist abgelaufen.</string>
+    <string name="action_snooze">Schlummern</string>
+    <string name="action_snooze_minutes">%1$d Min. schlummern</string>
+    <string name="action_dismiss">Beenden</string>
+    <string name="action_stop">Stopp</string>
+    <string name="action_plus_minute">+1 Min.</string>
+    <string name="channel_alarms">Wecker</string>
+    <string name="channel_timers">Timer</string>
+
+    <!-- Berechtigungen -->
+    <string name="perm_notifications">Erlaube Benachrichtigungen, damit Wecker und Timer klingeln und Steuerelemente zeigen können.</string>
+    <string name="perm_exact">Erlaube „Wecker &amp; Erinnerungen“, damit Wecker auf die Minute genau klingeln.</string>
+    <string name="perm_full_screen">Erlaube Vollbild-Benachrichtigungen, damit der Wecker über dem Sperrbildschirm erscheint.</string>
+    <string name="perm_fix">Erlauben</string>
+
+    <!-- Allgemein -->
+    <string name="action_back">Zurück</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_open">Öffnen</string>
+    <string name="action_settings">Einstellungen</string>
+
+    <!-- Einstellungen -->
+    <string name="settings_section_language">SPRACHE</string>
+    <string name="settings_language_system">Systemsprache</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_de">Deutsch</string>
+    <string name="settings_section_defaults">STANDARD FÜR NEUE WECKER</string>
+    <string name="settings_snooze">Schlummerdauer</string>
+    <string name="settings_fade">Sanftes Wecken</string>
+    <string name="settings_vibrate">Vibration</string>
+    <string name="settings_section_timer">TIMER</string>
+    <string name="settings_timer_vibrate">Vibrieren, wenn der Timer abläuft</string>
+    <string name="settings_section_privacy">PRIVATSPHÄRE</string>
+    <string name="settings_offline_title">100 % offline</string>
+    <string name="settings_offline_text">NothingClock besitzt keine Internet-Berechtigung. Keine Werbung, kein Tracking, keine Datenübertragung im Hintergrund – alles bleibt auf diesem Gerät.</string>
+    <string name="settings_section_support">UNTERSTÜTZEN</string>
+    <string name="settings_donate_title">Buy Me a Coffee</string>
+    <string name="settings_donate_text">NothingClock ist kostenlos und Open Source. Wenn dir die App gefällt, kannst du die Entwicklung unterstützen.</string>
+    <string name="dialog_donate_title">App verlassen?</string>
+    <string name="dialog_donate_text">Dadurch wird buymeacoffee.com/3rr0r303yt in deinem Browser geöffnet. NothingClock selbst bleibt offline und teilt nichts.</string>
+    <string name="donate_no_browser">Kein Browser gefunden.</string>
+    <string name="settings_section_about">ÜBER</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_license">Lizenziert unter der GNU GPL v3.0</string>
+</resources>

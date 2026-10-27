@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    NothingClock – private clock, alarm, timer & stopwatch for Android
+    Copyright (C) 2026 Real3rr0r303YT
+    SPDX-License-Identifier: GPL-3.0-or-later
+    Licensed under the GNU GPL v3. See LICENSE for details.
+-->
+<!-- Monochrome status-bar icon: dotted clock face. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path android:fillColor="#FFFFFFFF" android:pathData="M12,3m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M21,12m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M12,21m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M3,12m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M12,8m-1.3,0a1.3,1.3 0,1 1,2.6 0a1.3,1.3 0,1 1,-2.6 0" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M12,12m-1.6,0a1.6,1.6 0,1 1,3.2 0a1.6,1.6 0,1 1,-3.2 0" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M15.5,12m-1.3,0a1.3,1.3 0,1 1,2.6 0a1.3,1.3 0,1 1,-2.6 0" />
+</vector>

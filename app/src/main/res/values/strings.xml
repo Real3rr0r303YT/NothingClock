@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    NothingClock – private clock, alarm, timer & stopwatch for Android
+    Copyright (C) 2026 Real3rr0r303YT
+    SPDX-License-Identifier: GPL-3.0-or-later
+    Licensed under the GNU GPL v3. See LICENSE for details.
+-->
+<resources>
+    <string name="app_name" translatable="false">NothingClock</string>
+
+    <!-- Tabs -->
+    <string name="tab_clock">Clock</string>
+    <string name="tab_alarms">Alarm</string>
+    <string name="tab_timer">Timer</string>
+    <string name="tab_stopwatch">Stopwatch</string>
+    <string name="title_clock">CLOCK</string>
+    <string name="title_alarms">ALARM</string>
+    <string name="title_timer">TIMER</string>
+    <string name="title_stopwatch">STOPWATCH</string>
+    <string name="title_settings">SETTINGS</string>
+
+    <!-- Clock -->
+    <string name="clock_world">WORLD CLOCK</string>
+    <string name="clock_add_city">Add city</string>
+    <string name="clock_search_city">Search city or time zone</string>
+    <string name="clock_remove_city">Remove</string>
+    <string name="clock_same_time">Same time</string>
+    <string name="clock_offset_ahead">%1$s ahead</string>
+    <string name="clock_offset_behind">%1$s behind</string>
+    <string name="clock_next_alarm">Next alarm %1$s</string>
+
+    <!-- Alarms -->
+    <string name="alarms_empty">No alarms yet</string>
+    <string name="alarms_empty_hint">Tap + to set your first alarm.</string>
+    <string name="alarms_next_in">Rings in %1$d h %2$d min</string>
+    <string name="alarms_once">Once</string>
+    <string name="alarms_every_day">Every day</string>
+    <string name="alarms_weekdays">Weekdays</string>
+    <string name="alarms_weekend">Weekend</string>
+    <string name="alarm_new">New alarm</string>
+    <string name="alarm_edit">Edit alarm</string>
+    <string name="alarm_label">Label</string>
+    <string name="alarm_repeat">REPEAT</string>
+    <string name="alarm_vibrate">Vibrate</string>
+    <string name="alarm_fade_in">GENTLE WAKE-UP</string>
+    <string name="alarm_fade_off">Off</string>
+    <string name="alarm_fade_seconds">%1$d s</string>
+    <string name="alarm_snooze">SNOOZE</string>
+    <string name="alarm_minutes">%1$d min</string>
+    <string name="alarm_delete">Delete</string>
+    <string name="alarm_save">Save</string>
+    <string name="alarm_set_in">Alarm set for %1$d h %2$d min from now.</string>
+    <string name="action_add_alarm">Add alarm</string>
+
+    <!-- Timer -->
+    <string name="timer_start">Start</string>
+    <string name="timer_pause">Pause</string>
+    <string name="timer_resume">Resume</string>
+    <string name="timer_reset">Reset</string>
+    <string name="timer_delete_digit">Delete digit</string>
+    <string name="timer_presets">QUICK START</string>
+
+    <!-- Stopwatch -->
+    <string name="stopwatch_start">Start</string>
+    <string name="stopwatch_pause">Pause</string>
+    <string name="stopwatch_lap">Lap</string>
+    <string name="stopwatch_reset">Reset</string>
+    <string name="stopwatch_lap_number">LAP %1$d</string>
+    <string name="stopwatch_best">BEST</string>
+    <string name="stopwatch_worst">SLOWEST</string>
+
+    <!-- Ringing -->
+    <string name="ring_alarm">Alarm</string>
+    <string name="ring_timer">Time\'s up</string>
+    <string name="ring_alarm_text">Tap to open</string>
+    <string name="ring_timer_text">Your timer has finished.</string>
+    <string name="action_snooze">Snooze</string>
+    <string name="action_snooze_minutes">Snooze %1$d min</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_plus_minute">+1 min</string>
+    <string name="channel_alarms">Alarms</string>
+    <string name="channel_timers">Timers</string>
+
+    <!-- Permissions -->
+    <string name="perm_notifications">Allow notifications so alarms and timers can ring and show controls.</string>
+    <string name="perm_exact">Allow "Alarms &amp; reminders" so alarms ring at the exact minute.</string>
+    <string name="perm_full_screen">Allow full-screen alerts so the alarm appears over the lock screen.</string>
+    <string name="perm_fix">Allow</string>
+
+    <!-- Common -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_open">Open</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Settings -->
+    <string name="settings_section_language">LANGUAGE</string>
+    <string name="settings_language_system">System default</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_de">Deutsch</string>
+    <string name="settings_section_defaults">DEFAULTS FOR NEW ALARMS</string>
+    <string name="settings_snooze">Snooze length</string>
+    <string name="settings_fade">Gentle wake-up</string>
+    <string name="settings_vibrate">Vibrate</string>
+    <string name="settings_section_timer">TIMER</string>
+    <string name="settings_timer_vibrate">Vibrate when the timer ends</string>
+    <string name="settings_section_privacy">PRIVACY</string>
+    <string name="settings_offline_title">100 % offline</string>
+    <string name="settings_offline_text">NothingClock has no internet permission. No ads, no tracking, no background data transfer – everything stays on this device.</string>
+    <string name="settings_section_support">SUPPORT</string>
+    <string name="settings_donate_title">Buy Me a Coffee</string>
+    <string name="settings_donate_text">NothingClock is free and open source. If you like it, you can support development.</string>
+    <string name="dialog_donate_title">Leave the app?</string>
+    <string name="dialog_donate_text">This opens buymeacoffee.com/3rr0r303yt in your browser. NothingClock itself stays offline and shares nothing.</string>
+    <string name="donate_no_browser">No browser found.</string>
+    <string name="settings_section_about">ABOUT</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="settings_license">Licensed under the GNU GPL v3.0</string>
+    <string name="settings_copyright" translatable="false">© 2026 Real3rr0r303YT</string>
+</resources>
