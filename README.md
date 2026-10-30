@@ -70,7 +70,7 @@ Min SDK 26 (Android 8.0), target SDK 35. Kotlin 2.1, Jetpack Compose (Material 3
 
 ## Support
 
-If you like NothingClock: [☕ Buy Me a Coffee](https://www.buymeacoffee.com/3rr0r303yt)
+If you like NothingClock: [☕ Buy Me a Coffee](https://buymeacoffee.com/3rr0r303YT)
 
 ---
 
@@ -96,3 +96,5 @@ This program is free software: you can redistribute it and/or modify it under th
 of the License, or (at your option) any later version. See [LICENSE](LICENSE).
 
 NothingClock is an unofficial fan project and is not affiliated with Nothing Technology Limited.
+
+<p align="center"><b>Made by <a href="https://github.com/Real3rr0r303YT">Real3rr0r303YT</a></b></p>
