@@ -41,8 +41,11 @@ class AlarmScheduler(private val context: Context) {
 
     /** Schedules the next occurrence of [alarm] (or cancels it when disabled). Returns trigger millis. */
     fun schedule(alarm: Alarm, now: ZonedDateTime = ZonedDateTime.now()): Long? {
-        cancel(alarm.id)
-        if (!alarm.enabled) return null
+        if (!alarm.enabled) {
+            cancel(alarm.id)
+            return null
+        }
+        // setAlarmClock replaces the regular ring (same PendingIntent); a pending snooze is kept on purpose.
         val trigger = alarm.nextTrigger(now).toInstant().toEpochMilli()
         setAlarmClock(trigger, ringIntent(alarm, snoozed = false, requestCode = alarm.id))
         return trigger
@@ -58,7 +61,8 @@ class AlarmScheduler(private val context: Context) {
         alarmManager.cancel(ringIntent(Alarm(alarmId, 0, 0), snoozed = true, requestCode = SNOOZE_BASE + alarmId))
     }
 
-    fun rescheduleAll(alarms: List<Alarm>) = alarms.forEach { schedule(it) }
+    /** Boot / time change: re-arms enabled alarms without touching snoozes (a snoozed one-shot is already disabled). */
+    fun rescheduleAll(alarms: List<Alarm>) = alarms.filter { it.enabled }.forEach { schedule(it) }
 
     fun scheduleTimer(endsAt: Long) {
         val pi = timerIntent()
