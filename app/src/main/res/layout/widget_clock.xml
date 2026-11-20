@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NothingClock widget – GPL-3.0-or-later – Made by 3rr0r303YT on TikTok -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/widget_time"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/widget_clock_name"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/widget_date"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginTop="10dp"
+        android:importantForAccessibility="yes"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/widget_alarm"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="6dp"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+</LinearLayout>

@@ -17,6 +17,7 @@ Pure OLED black to save battery, big dot-matrix digits, a single red accent – 
   Rings with sound and optional vibration, even when the app is closed.
 - **Stopwatch** – millisecond-accurate on the monotonic clock (immune to clock changes), centisecond display,
   lap times with best/slowest lap, keeps running in the background and across app restarts.
+- **Home screen widget** – dot-matrix time with a red colon, date and the next alarm; redraws only while the screen is on (non-wakeup tick, no battery drain).
 - **English & German** – follows the system language or switch in Settings.
 
 ## Privacy by design
@@ -85,6 +86,7 @@ Akkuersparnis, mit großer Dot-Matrix-Anzeige und rotem Akzent.
 - **Timer** mit Ziffernblock und Schnellstart, Ton/Vibration bei Ablauf, auch bei geschlossener App.
 - **Stoppuhr** millisekundengenau mit Rundenzeiten (beste/langsamste Runde).
 - **Datenschutz:** keine Internet-Berechtigung, keine Werbung, kein Tracking, keine Konten.
+- **Widget:** Punktmatrix-Uhr mit Datum und nächstem Wecker für den Startbildschirm – akkuschonend.
 - **Sprachen:** Deutsch & Englisch – folgt dem System oder wird in den Einstellungen umgestellt.
 
 ## License

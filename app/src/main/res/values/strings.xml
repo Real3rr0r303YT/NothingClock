@@ -118,4 +118,7 @@
     <string name="settings_version">Version %1$s</string>
     <string name="settings_license">Licensed under the GNU GPL v3.0</string>
     <string name="settings_copyright" translatable="false">© 2026 Real3rr0r303YT</string>
+    <!-- Widget -->
+    <string name="widget_clock_name">Clock</string>
+    <string name="widget_clock_desc">Dot-matrix clock with date and your next alarm</string>
 </resources>
